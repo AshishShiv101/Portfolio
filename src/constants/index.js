@@ -35,31 +35,36 @@ export const PROJECTS = [
     title: "Birdy",
     image: project1,
     description:
-      "A twitter clone made using React as a framework and Firebase as database. The hosting link for the site - https://birdy-tawny.vercel.app/.",
-    technologies: [ "TailwindCSS", "React", "Firebase"],
+      "A twitter clone made using React as a framework and Firebase as database.",
+    technologies: ["TailwindCSS", "React", "Firebase"],
+    link: "https://birdy-tawny.vercel.app/",
   },
   {
     title: "E-yantra",
     image: project2,
     description:
-      "E-yantra, a site for our college for the better understanding of electrical components among students.The hosting link for the site is - https://e-yantra-ten.vercel.app/.",
+      "E-yantra, a site for our college for the better understanding of electrical components among students.",
     technologies: ["React", "TailwindCSS"],
+    link: "https://e-yantra-ten.vercel.app/",
   },
   {
     title: "Self-Car-Simulation",
     image: project3,
     description:
-      "A car simulation made using java script,html and css which shows how a car navigates thorough the traffic on its own.The hosting link for the site - https://self-driving-car-simulation.vercel.app/",
+      "A car simulation made using JavaScript, HTML, and CSS which shows how a car navigates through the traffic on its own.",
     technologies: ["Javascript", "CSS", "HTML", "Machine Learning"],
+    link: "https://self-driving-car-simulation.vercel.app/",
   },
   {
     title: "Car-Pedestrian-Detector",
     image: project4,
     description:
-      "This detector points out different vehicles and pedestrians from a given video. Made using library cv2 and python language.The Github repo for the project : https://github.com/AshishShiv101/Car_Pedestrian_Detector",
-    technologies: ["Python", "CV2",],
+      "This detector points out different vehicles and pedestrians from a given video. Made using library cv2 and Python language.",
+    technologies: ["Python", "CV2"],
+    link: "https://github.com/AshishShiv101/Car_Pedestrian_Detector",
   },
 ];
+
 
 export const CONTACT = {
   address:"Chennai,Tamil Nadu",
