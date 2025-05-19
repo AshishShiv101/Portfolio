@@ -2,32 +2,30 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jfif";
+import bspImage from "../assets/BSPHCL.webp";
+import infosysImage from "../assets/Infosys.jpg";
 
-export const HERO_CONTENT = `Enthusiastic and innovative Web Developer with a passion for leveraging cutting-edge technologies to create impactful
-solutions. Proficient in React framework with a keen interest in Artificial Intelligence. Experienced in developing projects such
-as a Diabetes Detector, Car Simulation, and Car-Pedestrian Simulator, demonstrating a blend of technical prowess and
-creative problem-solving skills. Eager to contribute to dynamic teams and tackle complex challenges in the realm of web
-development and AI.`;
+export const HERO_CONTENT = `Enthusiastic and innovative Web & App Developer with a passion for crafting impactful solutions using cutting-edge technologies. Proficient in React and Swift, with a keen interest in Artificial Intelligence. Demonstrating a blend of technical expertise and creative problem-solving skills. Eager to contribute to dynamic teams and tackle complex challenges in web and app development, while exploring the potential of AI integration.`;
 
-export const ABOUT_TEXT = `As a passionate and innovative Web Developer, I thrive on utilizing cutting-edge technologies to craft impactful solutions. My expertise lies in the React framework, and I have a strong interest in Artificial Intelligence, which I have applied in various projects. I have developed notable projects such as a Diabetes Detector, a Car Simulation, and a Car-Pedestrian Simulator, showcasing my technical skills and creative problem-solving abilities. I am proficient in technologies like MongoDB, Firebase, Node.js, and ExpressJS, and have a solid understanding of UI and UX design principles. Currently pursuing a degree in Computer Science from SRM Institute of Science & Technology, I am eager to join dynamic teams to tackle complex challenges in web development and AI. My GitHub and LinkedIn profiles provide further insight into my work and professional journey.`;
+export const ABOUT_TEXT = `As a passionate and innovative Web & App Developer, I thrive on leveraging cutting-edge technologies to create impactful solutions. My expertise spans React and Swift, with a strong interest in Artificial Intelligence. Recently, I contributed to Pathpulse, an app showcased at App Fair 2025, where it was selected among a handful of projects from over 30 teams. This journey of late-night coding, collaborative brainstorming, and transformative learning culminated in recognition from tech experts, fueling my drive to push boundaries in mobile development and AI. I’m proficient in MongoDB, Firebase, Node.js, ExpressJS, and have a solid grasp of UI/UX design principles. Currently pursuing a Computer Science degree at SRM Institute of Science & Technology, I’m eager to join dynamic teams to tackle complex challenges in web, app, and AI development. Explore my GitHub and LinkedIn for a deeper dive into my work and journey.`;
 
 export const EXPERIENCES = [
   {
-    year: "2024 - Present",
-    role: "Web Developer",
-    company: "Eyantra",
-    description: `Developed and maintained the E-Yantra website, aimed at enhancing the understanding of electrical components among students. Implemented interactive tutorials and integrated various educational resources to create an engaging learning platform. Collaborated with faculty and students to continuously improve the site and add new features.`,
-    technologies: ["Javascript", "React.js", "Next.js"],
+    year: "June 2024 - July 2024",
+    role: "App Developer",
+    company: "BSPHCL",
+    image: bspImage,
+    description: `Built a React Native app featuring QR code scanning to efficiently register electronic devices. Enabled quick data entry by capturing barcode data and syncing it to a centralized backend.`,
+    technologies: ["Javascript", "React Native"],
   },
   {
-    year: "2023 - 2024",
-    role: "Frontend Developer",
-    company: "Biom",
-    description: `Designed and developed user interfaces for web applications using Next.js and React.`,
-    technologies: ["React", "Tailwind",  "mySQL"],
+    year: "April 2025 - May 2025",
+    role: "IOS Developer",
+    company: "Infosys",
+    image: infosysImage,
+    description: `Developed a Hospital Management System using Swift and UIKit, enabling patient tracking, doctor scheduling, and real-time updates. Integrated Firebase backend and followed best practices for clean architecture and responsive design.`,
+    technologies: ["SwiftUI", "Django", "HealthKit"],
   },
-  
-  
 ];
 
 export const PROJECTS = [
