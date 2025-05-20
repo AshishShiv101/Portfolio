@@ -3,6 +3,8 @@ import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jfif";
 import bspImage from "../assets/BSPHCL.webp";
+import PathPulse from "../assets/PathPulse.jpg";
+import Ecom from "../assets/Ecomm.png"
 import infosysImage from "../assets/Infosys.jpg";
 
 export const HERO_CONTENT = `Enthusiastic and innovative Web & App Developer with a passion for crafting impactful solutions using cutting-edge technologies. Proficient in React and Swift, with a keen interest in Artificial Intelligence. Demonstrating a blend of technical expertise and creative problem-solving skills. Eager to contribute to dynamic teams and tackle complex challenges in web and app development, while exploring the potential of AI integration.`;
@@ -30,20 +32,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Birdy",
-    image: project1,
+    title: "PathPulse",
+    image: PathPulse,
     description:
-      "A twitter clone made using React as a framework and Firebase as database.",
-    technologies: ["TailwindCSS", "React", "Firebase"],
-    link: "https://birdy-tawny.vercel.app/",
+      "PathPulse is designed to be your essential travel companion, providing real-time information and safety features to enhance your travel experience. From navigating unfamiliar routes to staying updated with critical weather and news, PathPulse ensures you're always prepared.",
+    technologies: ["UIKIT", "Firebase"],
+    link: "https://apps.apple.com/in/app/pathpulse/id6743316371",
   },
   {
-    title: "E-yantra",
-    image: project2,
+    title: "E-Commerce",
+    image: Ecom,
     description:
-      "E-yantra, a site for our college for the better understanding of electrical components among students.",
-    technologies: ["React", "TailwindCSS"],
-    link: "https://e-yantra-ten.vercel.app/",
+      "A feature-rich, secure, and scalable e-commerce platform with modern functionalities, designed for seamless user experience and efficient management.",
+    technologies: ["React", "TailwindCSS","MongoDB"],
+    link: "https://e-commerce-2-j6z5.onrender.com/",
   },
   {
     title: "Self-Car-Simulation",

@@ -41,7 +41,7 @@ const Navbar = () => {
   return (
     <>
       {/* Spacer div to prevent content from being hidden under the navbar */}
-      <div className="h-24"></div>
+      <div className="h-14"></div>
 
       <motion.nav
         initial={{ y: -100 }}
