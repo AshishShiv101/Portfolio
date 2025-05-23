@@ -180,27 +180,7 @@ const Hero = () => {
       </div>
 
       {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center"
-      >
-        <span className="text-slate-400 text-sm mb-2">Scroll to explore</span>
-        <div className="w-6 h-10 rounded-full border-2 border-slate-600 flex justify-center p-1">
-          <motion.div
-            animate={{
-              y: [0, 10, 0],
-            }}
-            transition={{
-              duration: 1.5,
-              repeat: Infinity,
-              repeatType: "loop"
-            }}
-            className="w-2 h-2 bg-green-500 rounded-full"
-          />
-        </div>
-      </motion.div>
+    
     </section>
   );
 };
