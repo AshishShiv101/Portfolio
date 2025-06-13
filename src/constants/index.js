@@ -5,7 +5,7 @@ import project4 from "../assets/projects/project-4.jfif";
 import bspImage from "../assets/BSPHCL.webp";
 import PathPulse from "../assets/PathPulse.jpg";
 import Ecom from "../assets/Ecomm.png"
-import infosysImage from "../assets/Infosys.jpg";
+import infosysImage from "../assets/Infosys.webp";
 import mmw from "../assets/mmw.png"
 
 export const HERO_CONTENT = `Enthusiastic and innovative Web & App Developer with a passion for crafting impactful solutions using cutting-edge technologies. Proficient in React and Swift, with a keen interest in Artificial Intelligence. Demonstrating a blend of technical expertise and creative problem-solving skills. Eager to contribute to dynamic teams and tackle complex challenges in web and app development, while exploring the potential of AI integration.`;
