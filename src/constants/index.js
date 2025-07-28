@@ -1,5 +1,4 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
+
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jfif";
 import bspImage from "../assets/BSPHCL.webp";
@@ -7,6 +6,12 @@ import PathPulse from "../assets/PathPulse.jpg";
 import Ecom from "../assets/Ecomm.png"
 import infosysImage from "../assets/Infosys.webp";
 import mmw from "../assets/mmw.png"
+import ciu from "../assets/ClearItUp.png"
+import lingo from '../assets/Lingo.png'
+import birdy from '../assets/Birdy.png'
+import chess from '../assets/chess.png'
+import BR from '../assets/BR.png'
+
 
 export const HERO_CONTENT = `Enthusiastic and innovative Web & App Developer with a passion for crafting impactful solutions using cutting-edge technologies. Proficient in React and Swift, with a keen interest in Artificial Intelligence. Demonstrating a blend of technical expertise and creative problem-solving skills. Eager to contribute to dynamic teams and tackle complex challenges in web and app development, while exploring the potential of AI integration.`;
 
@@ -44,35 +49,103 @@ export const PROJECTS = [
     title: "PathPulse",
     image: PathPulse,
     description:
-      "PathPulse is designed to be your essential travel companion, providing real-time information and safety features to enhance your travel experience. From navigating unfamiliar routes to staying updated with critical weather and news, PathPulse ensures you're always prepared.",
+      "PathPulse is designed to be your essential travel companion.",
     technologies: ["UIKIT", "Firebase"],
     link: "https://apps.apple.com/in/app/pathpulse/id6743316371",
+    category: "Top",
   },
   {
     title: "E-Commerce",
     image: Ecom,
     description:
-      "A feature-rich, secure, and scalable e-commerce platform with modern functionalities, designed for seamless user experience and efficient management.",
-    technologies: ["React", "TailwindCSS","MongoDB"],
+      "A feature-rich, secure, and scalable e-commerce platform.",
+    technologies: ["React", "TailwindCSS", "MongoDB"],
     link: "https://e-commerce-2-j6z5.onrender.com/",
+    category: "Web",
+  },
+  {
+    title: "ClearItUp",
+    image: ciu,
+    description:
+      "Clear It Up is a modern full-stack image background remover.",
+    technologies: ["React", "MongoDB","RazorPay"],
+    link: "https://clear-it-up-6jwj.vercel.app/",
+    category: "Web",
+  },
+  {
+    title: "LingoNest",
+    image: lingo,
+    description:
+      "Your Ultimate Language Exchange Platform.",
+    technologies: ["React", "Zustand", "MongoDB",'TanStack Query'],
+    link: "https://lingonest.onrender.com/",
+    category: "Web",
+  },
+  {
+    title: "LingoNest",
+    image: lingo,
+    description:
+      "Your Ultimate Language Exchange Platform.",
+    technologies: ["React", "Zustand", "MongoDB", 'TanStack Query'],
+    link: "https://lingonest.onrender.com/",
+    category: "Top",
+  },
+  {
+    title: "Birdy",
+    image: birdy,
+    description:
+      "A Simple Twitter Clone.",
+    technologies: ["React", "Firebase"],
+    link: "https://birdy-tawny.vercel.app/",
+    category: "Web",
+  },
+  {
+    title: "ChessDotCom",
+    image: chess,
+    description:
+      "Real-time multiplayer chess game that allows players to connect and play chess in their browser.",
+    technologies: ["Vanila JS", "Socket.IO"],
+    link: "https://chess-dot-com-3.onrender.com/",
+    category: "Web",
   },
   {
     title: "Self-Car-Simulation",
     image: project3,
     description:
-      "A car simulation made using JavaScript, HTML, and CSS which shows how a car navigates through the traffic on its own.",
+      "A car simulation made using JavaScript, HTML, and CSS.",
     technologies: ["Javascript", "CSS", "HTML", "Machine Learning"],
     link: "https://self-driving-car-simulation.vercel.app/",
+    category: "AI/ML",
+  },
+  {
+    title: "Book_Recommender",
+    image: BR,
+    description:
+      "An intelligent system that recommends books based on natural language queries, genre, and emotional tone using state-of-the-art semantic search.",
+    technologies: ["Gradio", "HuggingFace", "Chroma"],
+    link: "https://github.com/AshishShiv101/Book-Gradio",
+    category: "AI/ML",
+  },
+  {
+    title: "Book_Recommender",
+    image: BR,
+    description:
+      "An intelligent system that recommends books based on natural language queries, genre, and emotional tone using state-of-the-art semantic search.",
+    technologies: ["Gradio", "HuggingFace", "Chroma"],
+    link: "https://github.com/AshishShiv101/Book-Gradio",
+    category: "Top",
   },
   {
     title: "Car-Pedestrian-Detector",
     image: project4,
     description:
-      "This detector points out different vehicles and pedestrians from a given video. Made using library cv2 and Python language.",
+      "This detector points out vehicles and pedestrians from video.",
     technologies: ["Python", "CV2"],
     link: "https://github.com/AshishShiv101/Car_Pedestrian_Detector",
+    category: "AI/ML",
   },
 ];
+
 
 
 export const CONTACT = {
