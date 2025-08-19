@@ -11,7 +11,8 @@ import lingo from '../assets/Lingo.png'
 import birdy from '../assets/Birdy.png'
 import chess from '../assets/chess.png'
 import BR from '../assets/BR.png'
-
+import transform from '../assets/transformer.png'
+import dev from "../assets/devtool.png"
 
 export const HERO_CONTENT = `Enthusiastic and innovative Web & App Developer with a passion for crafting impactful solutions using cutting-edge technologies. Proficient in React and Swift, with a keen interest in Artificial Intelligence. Demonstrating a blend of technical expertise and creative problem-solving skills. Eager to contribute to dynamic teams and tackle complex challenges in web and app development, while exploring the potential of AI integration.`;
 
@@ -118,13 +119,22 @@ export const PROJECTS = [
     category: "AI/ML",
   },
   {
-    title: "Book_Recommender",
-    image: BR,
+    title: "Transformer Model",
+    image: transform,
     description:
-      "An intelligent system that recommends books based on natural language queries, genre, and emotional tone using state-of-the-art semantic search.",
-    technologies: ["Gradio", "HuggingFace", "Chroma"],
-    link: "https://github.com/AshishShiv101/Book-Gradio",
+      "This project implements a custom bilingual dataset handler and training configuration setup for building Transformer- based models for neural machine translation(NMT).",
+    technologies: ["pytorch", "Transformer", "Python"],
+    link: "https://github.com/AshishShiv101/TransformerModel",
     category: "AI/ML",
+  },
+  {
+    title: "Transformer Model",
+    image: transform,
+    description:
+      "This project implements a custom bilingual dataset handler and training configuration setup for building Transformer- based models for neural machine translation(NMT).",
+    technologies: ["pytorch", "Transformer", "Python"],
+    link: "https://github.com/AshishShiv101/TransformerModel",
+    category: "Top",
   },
   {
     title: "Book_Recommender",
@@ -133,7 +143,17 @@ export const PROJECTS = [
       "An intelligent system that recommends books based on natural language queries, genre, and emotional tone using state-of-the-art semantic search.",
     technologies: ["Gradio", "HuggingFace", "Chroma"],
     link: "https://github.com/AshishShiv101/Book-Gradio",
-    category: "Top",
+    category: "AI/ML",
+  },
+
+  {
+    title: "DevToolScout",
+    image: dev,
+    description:
+      "A Python-based developer tools research agent that extracts, researches, and analyzes developer tools using the Google Gemini API and Firecrawl SDK, built with LangGraph for workflow orchestration.",
+    technologies: ["LangGraph", "FireCrawl", "LangChain"],
+    link: "https://github.com/AshishShiv101/DevToolScout",
+    category: "AI/ML",
   },
   {
     title: "Car-Pedestrian-Detector",
